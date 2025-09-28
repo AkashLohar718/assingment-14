@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'DS-Digital Normal';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DS-Digital Normal'), url('DS-DIGI.woff') format('woff');
+    }
+
 .body{
             height: 300px;
             width: 300px;
@@ -16,6 +23,7 @@
             margin-top: 15px;
             width:275px ;
             padding: 2px;
+            font-family:'DS-Digital Normal' ;
         }
         .btn-container{
             display: flex;
